@@ -40,7 +40,7 @@ public class MainController {
         Map<String,Object> map = new HashMap<String,Object>();
         ResponseVO response = new ResponseVO();
         
-        log.debug("아파트 가격 조회 Test");
+        log.debug("아파트 가격 조회 Test01");
         
         if(commandMap.isEmpty() == false){
         	map = commandMap.getMap(); 
